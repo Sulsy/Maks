@@ -19,4 +19,4 @@ jobs:
         dotnet-version: '5.0'
 
     - name: Build and run conversion script
-      run: dotnet run -p /home/runner/work/Maks/Maks/ConsoleApplication1/ConsoleApp1/ConsoleApp1.csproj ${{ github.workspace }}/index.cshtml ${{ github.workspace }}/index.html
+      run: dotnet run -p /home/runner/work/Maks/Maks/ConsoleApplication1/ConsoleApp1/ConsoleApp1.csproj ${{ github.workspace }}/index.cshtml ${{ github.workspace }}
