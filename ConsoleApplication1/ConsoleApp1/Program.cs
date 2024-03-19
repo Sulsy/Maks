@@ -22,7 +22,7 @@ public class Program
             string cshtmlContent = File.ReadAllText(cshtmlFilePath);
             File.WriteAllText(htmlFilePath, cshtmlContent);
 
-            Console.WriteLine("Conversion successful!+ ",htmlFilePath);
+            Console.WriteLine("Conversion successful! :"+htmlFilePath);
         }
         else
         {
