@@ -26,11 +26,9 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --global user.email "github@example.com"
+        git config --global user.email "theentchannel@gmail.com"
         git config --global user.name "GitHub Actions"
         git commit -m "Add converted HTML file"
 
     - name: Push changes
       uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.SUPER }}
