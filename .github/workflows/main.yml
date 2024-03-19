@@ -13,10 +13,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
       
-    - name: Setup .NET Core
+    - name: Setup .NET  5.0
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '3.1'
+        dotnet-version: '5.0'
 
     - name: Build and run conversion script
       run: dotnet run -p /home/runner/work/Maks/Maks/ConsoleApplication1/ConsoleApp1/ConsoleApp1.csproj ${{ github.workspace }}/index.cshtml ${{ github.workspace }}/index.html
