@@ -16,8 +16,7 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '5.0'  # Используем .NET 5.0
+        dotnet-version: '3.1'
 
     - name: Build and run conversion script
-      run: |
-        dotnet run -p /home/runner/work/Maks/Maks/ConsoleApplication1/ConsoleApp1/ConsoleApp1.csproj ${{ github.workspace }}/index.cshtml ${{ github.workspace }}/index.html
+      run: dotnet run -p /home/runner/work/Maks/Maks/ConsoleApplication1/ConsoleApp1/ConsoleApp1.csproj ${{ github.workspace }}/index.cshtml ${{ github.workspace }}/index.html
