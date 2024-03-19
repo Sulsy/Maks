@@ -11,15 +11,15 @@ public class Program
         }
 
         string cshtmlFilePath = args[0];
-        ConvertCshtmlToHtml(cshtmlFilePath);
+        string htmlFilePath = args[1];
+        ConvertCshtmlToHtml(cshtmlFilePath,htmlFilePath);
     }
 
-    public static void ConvertCshtmlToHtml(string cshtmlFilePath)
+    public static void ConvertCshtmlToHtml(string cshtmlFilePath,string htmlFilePath)
     {
         if (File.Exists(cshtmlFilePath))
         {
             string cshtmlContent = File.ReadAllText(cshtmlFilePath);
-            string htmlFilePath = Path.ChangeExtension(cshtmlFilePath, ".html");
             File.WriteAllText(htmlFilePath, cshtmlContent);
 
             Console.WriteLine("Conversion successful!");
