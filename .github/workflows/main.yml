@@ -20,4 +20,4 @@ jobs:
 
     - name: Build and run conversion script
       run: |
-        dotnet run -p /home/runner/work/Maks/Maks/ConsoleApplication1/ConsoleApp1/ConsoleApp1.csproj ${{ github.workspace }}/index.cshtml
+        dotnet run -p /home/runner/work/Maks/Maks/ConsoleApplication1/ConsoleApp1/ConsoleApp1.csproj ${{ github.workspace }}/index.cshtml ${{ github.workspace }}/index.html
