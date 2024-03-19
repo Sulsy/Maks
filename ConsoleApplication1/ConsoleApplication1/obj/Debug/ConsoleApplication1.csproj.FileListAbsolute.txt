@@ -1,7 +1,0 @@
-G:\Мася\Maks\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-G:\Мася\Maks\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-G:\Мася\Maks\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.AssemblyReference.cache
-G:\Мася\Maks\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.SuggestedBindingRedirects.cache
-G:\Мася\Maks\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
-G:\Мася\Maks\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-G:\Мася\Maks\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
